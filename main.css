@@ -1,0 +1,46 @@
+body.not-logged-in{
+ background:#fff 
+}
+.injection{
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+  position:relative
+}
+.scene1{
+  margin-top:150px;
+  height:600px;
+  width:100%;
+  overflow:hidden;
+  position:relative
+}
+.clocks{
+  margin-left:50px;
+}
+.clocks .clock{
+  position:relative;
+  margin-left:-90px;
+  transform: scale(0.25);
+  display:inline-block;
+            perspective: 1000px;
+  
+}
+.clocks .clock svg{
+  height:300px;
+}
+#scene1{
+  position:absolute;
+  top:0;
+  transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+  width:100%;
+  margin: 0 auto;
+  display:block;
+  height:500px
+}
+ 
+#navbar{
+  position: fixed;
+  top:0;left:0;
+  width:100%;
+  z-index:10
+}
