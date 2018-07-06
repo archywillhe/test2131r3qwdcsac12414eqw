@@ -275,8 +275,8 @@ var clock = new Clock({
     var ticking = false;
 
     var end_of_scene1 = 300
-    var beginning_of_scene2= 400
-    var end_of_scene2 = 700
+    var beginning_of_scene2= 320
+    var end_of_scene2 = 500
     var max_rotation = 80
     function doSomething(s) {
         console.log(s)
